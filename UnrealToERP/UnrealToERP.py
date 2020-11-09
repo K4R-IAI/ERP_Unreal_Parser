@@ -8,7 +8,7 @@ class Product:
   def __init__(self, data):
     self.items = []
     self.items_front = []
-    self.shelf_owner = None
+    self.shelves = []
     self.layers = []
     self.facing = 0
 
@@ -64,8 +64,9 @@ class Item:
     return self.name
 
 class Shelf:
-  def __init__(self, data):
-    self.name = str(data[0])
+  def __init__(self, data, shelf_id):
+    self.id = shelf_id
+    self.type = str(data[0])
     self.pose = Pose()
     self.pose.position.x = float(data[1])
     self.pose.position.y = float(data[2])
@@ -74,9 +75,12 @@ class Shelf:
     self.pose.orientation.y = float(data[5])
     self.pose.orientation.z = float(data[6])
     self.pose.orientation.w = float(data[7])
+    self.depth = 0.8
+    self.width = 1.0
     self.layers = []
+    self.products = []
   def __repr__(self):
-    return str(self.name) + ': ' + str(self.layers)
+    return str(self.id) + ' - ' + self.type + ': ' + str(self.layers)
 
 class Layer:
   def __init__(self, z_min, z_max):
@@ -85,10 +89,18 @@ class Layer:
   def __repr__(self):
     return str(self.z_min) + ' - ' + str(self.z_max)
 
-def csv_to_products():
-  with open("data/products.csv", mode='r') as csv_file:
+def fill(products, shelves):
+  for product in products:
+    for shelf in shelves:
+      for item in product.items:
+        if not shelf in product.shelves:
+          if shelf.pose.position.x - shelf.depth/2 < item.pose.position.x and item.pose.position.x < shelf.pose.position.x + shelf.depth/2 and shelf.pose.position.y - shelf.width/2 < item.pose.position.y and item.pose.position.y < shelf.pose.position.y + shelf.width/2:
+            product.shelves.append(shelf)
+            shelf.products.append(product)
+
+def csv_to_products(csv_items):
+  with open(csv_items, mode='r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='|')
-    next(csv_reader)
     first_row = next(csv_reader)
     products = []
     products.append(Product(first_row))
@@ -100,23 +112,36 @@ def csv_to_products():
       products[-1].items.append(item)
   return products
 
-def csv_to_shelves():
-  with open("data/shelves.csv", mode='r') as csv_file:
+def csv_to_shelves(csv_shelves):
+  with open(csv_shelves, mode='r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='|')
-    next(csv_reader)
     shelves = []
-    z_min = 0
+    shelf_id = 0
+    shelf_bottoms = []
+    shelf_layers = []
+    layer_heights = {}
     for data in csv_reader:
-      if 'ShelfSystem' in str(data[0]):
-        if z_min > 0:
-          shelves[-1].layers.append(Layer(z_min, float('inf')))
-        shelves.append(Shelf(data))
+      if 'ShelfSystemH200T7L10W' in str(data[0]):
+        shelves.append(Shelf(data, str(shelf_id)))
+        layer_heights[shelves[-1]] = []
+        shelf_id += 1
       elif 'Bottom' in str(data[0]):
-        z_min = float(data[3])
-      elif 'Tiles' in str(data[0]):
-        shelves[-1].layers.append(Layer(z_min, float(data[3])))
-        z_min = float(data[3])
-    shelves[-1].layers.append(Layer(z_min, float('inf')))
+        shelf_bottoms.append(data)
+      elif 'ShelfLayer' in str(data[0]):
+        shelf_layers.append(data)
+    for data in shelf_bottoms:
+      for shelf in shelves:
+        if shelf.pose.position.x - shelf.depth/2 < float(data[1]) and float(data[1]) < shelf.pose.position.x + shelf.depth/2 and shelf.pose.position.y - shelf.width/2 < float(data[2]) and float(data[2]) < shelf.pose.position.y + shelf.width/2:
+          layer_heights[shelf].append(float(data[3]))
+    for data in shelf_layers:
+      for shelf in shelves:
+        if shelf.pose.position.x - shelf.depth/2 < float(data[1]) and float(data[1]) < shelf.pose.position.x + shelf.depth/2 and shelf.pose.position.y - shelf.width/2 < float(data[2]) and float(data[2]) < shelf.pose.position.y + shelf.width/2:
+          layer_heights[shelf].append(float(data[3]))
+    for shelf in layer_heights:
+      layer_heights[shelf].sort()
+      for i in range(len(layer_heights[shelf])-1):
+        shelf.layers.append(Layer(layer_heights[shelf][i], layer_heights[shelf][i+1]))
+      shelf.layers.append(Layer(layer_heights[shelf][i+1], float('inf')))
   return shelves
 
 def write_output(products):
@@ -131,10 +156,20 @@ def write_output(products):
     json.dump(data, outfile)
 
 if __name__ == "__main__":
-  products = csv_to_products()
-  shelves = csv_to_shelves()
+  products = csv_to_products('data/allitems.csv')
+  #print(products)
+  shelves = csv_to_shelves('data/allshelves.csv')
+  #print(shelves)
+  fill(products, shelves)
+
+  products_valid = []
   for product in products:
-    product.calc_facing()
-    product.calc_layer(shelves[0])
-  print(products)
-  write_output(products)
+    if product.shelves:
+      products_valid.append(product)
+  products = products_valid
+  #print(products)
+  #for product in products:
+    #product.calc_facing()
+    #product.calc_layer(shelves[0])
+  #print(products)
+  #write_output(products)
