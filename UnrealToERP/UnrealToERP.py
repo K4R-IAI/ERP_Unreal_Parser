@@ -25,17 +25,12 @@ class Product:
     for item in self.items:
       if item.shelf: #TODO: delete
         for i, layer in enumerate(item.shelf.layers):
-          
-
           if layer.z_min <= item.height and item.height <= layer.z_max:
             item.layer = item.shelf.layers[i]
             if not item.shelf.id in self.locations:
               self.locations[item.shelf.id] = {}
             if not 'Layer ' + str(item.layer.num) in self.locations[item.shelf.id]:
               self.locations[item.shelf.id]['Layer ' + str(item.layer.num)] = {}
-        if item.name == 'ProductWithAN377954' and item.position.x == 7.217367:
-          print(item.shelf.layers)
-
 
   def calc_facings(self):
     for item in self.items:
@@ -125,7 +120,7 @@ class Layer:
     self.orders = {}
     self.orders_sorted = []
   def __repr__(self):
-    return 'Layer ' + str(self.num)
+    return 'Layer ' + str(self.num) + ' - ' + str([self.z_min, self.z_max])
 
 def fill(products, shelves):
   for product in products:
@@ -137,14 +132,25 @@ def fill(products, shelves):
             shelf.products.append(product)
           if not shelf in product.shelves:
             product.shelves.append(shelf)
-  return remove_invalid_products(products)
+  check_unlocated_products(products, shelves)
 
-def remove_invalid_products(products):
-  products_valid = []
+def check_unlocated_products(products, shelves, fix_unlocated=False):
   for product in products:
-    if product.shelves:
-      products_valid.append(product)
-  return products_valid
+    for item in product.items:
+      if not item.shelf:
+        nearest_dist = float('inf')
+        for shelf in shelves:
+          if shelf.polygon.exterior.distance(item.position) < nearest_dist:
+            nearest_dist = shelf.polygon.distance(item.position)
+            nearest_shelf = shelf
+        print('Item ' + str(item) + ' is unlocated, nearest shelf is ' + nearest_shelf.id + ' located at ' + str(nearest_shelf.center) + ', distance ' + str(nearest_dist))
+        if fix_unlocated:
+          print('Item ' + str(item) + ' will be located at shelf ' + nearest_shelf.id)
+          item.shelf = nearest_shelf
+          if not product in nearest_shelf.products:
+            nearest_shelf.products.append(product)
+          if not nearest_shelf in product.shelves:
+            product.shelves.append(nearest_shelf)
 
 def csv_to_products(csv_items):
   with open(csv_items, mode='r') as csv_file:
@@ -165,6 +171,7 @@ def csv_to_shelves(csv_shelves):
     csv_reader = csv.reader(csv_file, delimiter='|')
     shelves = []
     shelf_id = 0
+    shelf_bottoms = []
     shelf_layers = []
     layer_heights = {}
     for data in csv_reader:
@@ -175,7 +182,7 @@ def csv_to_shelves(csv_shelves):
         if 'H160T6L10G' in str(data[0]):
           shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 1.2, 1.0))
         if 'H200T7L10W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.8, 1.0))
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.85, 1.0))
         if 'H180T5L10W' in str(data[0]):
           shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.6, 1.0))
         if 'H200T5L6W' in str(data[0]):
@@ -187,8 +194,18 @@ def csv_to_shelves(csv_shelves):
         if 'H200T6L6W' in str(data[0]):
           shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.7, 0.65))
         layer_heights[shelves[-1]] = []
+      elif 'Bottom' in str(data[0]):
+        shelf_bottoms.append(data)
       elif 'ShelfLayer' in str(data[0]):
         shelf_layers.append(data)
+    for data in shelf_bottoms:
+      for shelf in shelves:
+        if shelf.polygon.contains(Point(float(data[1]), float(data[2]))):
+          layer_heights[shelf].append(float(data[3]))
+    for shelf in shelves:
+      if not layer_heights[shelf]:
+        print('Shelf ' + shelf.type + ' does not have bottom layer, its bottom height will be set to 0.0')
+        layer_heights[shelf].append(0.0)
     for data in shelf_layers:
       for shelf in shelves:
         if shelf.polygon.contains(Point(float(data[1]), float(data[2]))):
@@ -201,6 +218,8 @@ def csv_to_shelves(csv_shelves):
         shelf.layers.append(Layer(i+2, layer_heights[shelf][i+1], float('inf')))
       else:
         shelf.layers.append(Layer(1, layer_heights[shelf][0], float('inf')))
+    for shelf in shelves:
+      print(shelf.id + ', type ' + shelf.type + ', located at ' + str(shelf.center) + ', width ' + str(shelf.width) + ', depth ' + str(shelf.depth) + ' is created')
   return shelves
 
 def write_output(products):
@@ -211,16 +230,15 @@ def write_output(products):
         data[item.name] = {}
         data[item.name]['locations'] = product.locations
   with open('output/ERP.json', 'w') as outfile:
-    json.dump(data, outfile)
+    json.dump(data, outfile, indent=2)
 
 if __name__ == "__main__":
   products = csv_to_products('data/allitems.csv')
   shelves = csv_to_shelves('data/allshelves.csv')
-  products = fill(products, shelves)
+  fill(products, shelves)
   for product in products:
     product.calc_layers()
     product.calc_facings()
   for shelf in shelves:
     shelf.calc_orders()
-
   write_output(products)
