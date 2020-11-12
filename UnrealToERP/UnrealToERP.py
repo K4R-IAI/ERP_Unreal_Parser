@@ -8,7 +8,7 @@ from shapely.geometry import Point, LineString
 from shapely.geometry.polygon import Polygon
 import tf
 
-def calc_dist_point_to_line(point, line_a_b):
+def calc_side_distance(point, line_a_b):
   if len(line_a_b) == 2:
     return abs(line_a_b[0] * point.x - point.y + line_a_b[1]) / math.sqrt(line_a_b[0] * line_a_b[0] + 1)
   else:
@@ -19,45 +19,36 @@ class Product:
     self.name = name
     self.items = []
     self.shelves = []
-    self.layers = {}
-    self.facings = {}
-
-  def calc_facings(self):
-    dist_to_sides = {}
-    for item in self.items:
-      if item.shelf: #TODO: delete
-        dist_to_side = calc_dist_point_to_line(item.position, item.shelf.side_line_a_b)
-        if not item.shelf.id in dist_to_sides:
-          dist_to_sides[item.shelf.id] = [dist_to_side]
-          self.facings[item.shelf.id] = 1
-        else:
-          same_facing = False
-          for dist in dist_to_sides[item.shelf.id]:
-            if dist_to_side - dist < 0.01 and dist_to_side - dist > -0.01:
-              same_facing = True
-              break
-          if not same_facing:
-            dist_to_sides[item.shelf.id].append(dist_to_side)
-            self.facings[item.shelf.id] += 1
+    self.locations = {}
 
   def calc_layers(self):
     for item in self.items:
       if item.shelf: #TODO: delete
         for i, layer in enumerate(item.shelf.layers):
-          i+=1
           if layer.z_min <= item.height and item.height <= layer.z_max:
-            if not item.shelf.id in self.layers:
-              self.layers[item.shelf.id] = [i]
-            else:
-              if not i in self.layers[item.shelf.id]:
-                self.layers[item.shelf.id].append(i)
+            item.layer = item.shelf.layers[i]
+            if not item.shelf.id in self.locations:
+              self.locations[item.shelf.id] = {}
+            if not 'Layer ' + str(item.layer.num) in self.locations[item.shelf.id]:
+              self.locations[item.shelf.id]['Layer ' + str(item.layer.num)] = {}
 
-  # def calc_layer(self, shelf):
-  #   for item in self.items:
-  #     for i, layer in enumerate(shelf.layers):
-  #       if layer.z_min <= item.pose.position.z and item.pose.position.z <= layer.z_max:
-  #         if not i in self.layers:
-  #           self.layers.append(i)
+  def calc_facings(self):
+    for item in self.items:
+      if item.shelf: #TODO: delete
+        side_distance = calc_side_distance(item.position, item.shelf.side_line_a_b)
+        print(item, item.layer)
+        if not self in item.layer.orders:
+          item.layer.orders[self] = [side_distance]
+          self.locations[item.shelf.id]['Layer ' + str(item.layer.num)] = {}
+          self.locations[item.shelf.id]['Layer ' + str(item.layer.num)]['Facing'] = 1
+        else:
+          same_facing = False
+          for side_distance_in_one_shelf_layer in item.layer.orders[self]:
+            if side_distance - side_distance_in_one_shelf_layer < 0.02 and side_distance - side_distance_in_one_shelf_layer > -0.02:
+              same_facing = True
+          if not same_facing:
+            item.layer.orders[self].append(side_distance)
+            self.locations[item.shelf.id]['Layer ' + str(item.layer.num)]['Facing'] += 1
 
   def __repr__(self):
     return str(self.name)
@@ -68,8 +59,9 @@ class Item:
     self.position = Point(float(data[1]), float(data[2]))
     self.height = float(data[3])
     self.shelf = None
+    self.layer = None
   def __repr__(self):
-    return self.name
+    return self.name + str(' at ') + str([self.position.x, self.position.y, self.height])
 
 def transform2d(x_trans, y_trans, x_rot, y_rot, yaw):
   c = math.cos(yaw)
@@ -87,11 +79,12 @@ def calc_a_b(x1, x2, y1, y2):
     return [x1]
 
 class Shelf:
-  def __init__(self, data, shelf_id):
+  def __init__(self, data, shelf_id, depth, width):
     self.id = shelf_id
     self.type = str(data[0])
-    self.depth = 0.8
-    self.width = 1.0
+    self.center = [float(data[1]), float(data[2])]
+    self.depth = depth
+    self.width = width
     self.polygon = self.set_polygon(data)
     self.layers = []
     self.products = []
@@ -106,15 +99,29 @@ class Shelf:
     p4 = transform2d(float(data[1]), float(data[2]), -self.width/2, self.depth/2, yaw)
     self.side_line_a_b = calc_a_b(p2[0], p3[0], p2[1], p3[1])
     return Polygon([p1, p2, p3, p4])
+
+  def calc_orders(self):
+    for layer in self.layers:
+      for product in layer.orders:
+        for order in layer.orders[product]:
+          layer.orders_sorted.append((product, order))
+      layer.orders_sorted.sort(key=lambda x: x[1])
+      for i, order_sorted in enumerate(layer.orders_sorted):
+        if 'Layer ' + str(layer.num) in order_sorted[0].locations[self.id]:
+          order_sorted[0].locations[self.id]['Layer ' + str(layer.num)]['Order'] = i+1
+
   def __repr__(self):
-    return str(self.id) + ' - ' + self.type + ' - ' + str(self.polygon)
+    return str(self.id) + ' - ' + str(self.center) + ' - ' + self.type + ' - ' + str(self.polygon)
 
 class Layer:
-  def __init__(self, z_min, z_max):
+  def __init__(self, num, z_min, z_max):
+    self.num = num
     self.z_min = z_min
     self.z_max = z_max
+    self.orders = {}
+    self.orders_sorted = []
   def __repr__(self):
-    return str(self.z_min) + ' - ' + str(self.z_max)
+    return 'Layer ' + str(self.num)
 
 def fill(products, shelves):
   for product in products:
@@ -126,7 +133,15 @@ def fill(products, shelves):
             shelf.products.append(product)
           if not shelf in product.shelves:
             product.shelves.append(shelf)
-      
+  return remove_invalid_products(products)
+
+def remove_invalid_products(products):
+  products_valid = []
+  for product in products:
+    if product.shelves:
+      products_valid.append(product)
+  return products_valid
+
 def csv_to_products(csv_items):
   with open(csv_items, mode='r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='|')
@@ -149,10 +164,25 @@ def csv_to_shelves(csv_shelves):
     shelf_layers = []
     layer_heights = {}
     for data in csv_reader:
-      if 'ShelfSystemH200T7L10W' in str(data[0]):
-        shelves.append(Shelf(data, str(shelf_id)))
-        layer_heights[shelves[-1]] = []
+      if 'ShelfSystem' in str(data[0]):
         shelf_id += 1
+        if 'H160T4L10W' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.6, 1.0))
+        if 'H160T6L10G' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 1.2, 1.0))
+        if 'H200T7L10W' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.8, 1.0))
+        if 'H180T5L10W' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.6, 1.0))
+        if 'H200T5L6W' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.6, 0.7))
+        if 'H200T6L10W' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.7, 1.0))
+        if 'H200T6L12W' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.7, 1.25))
+        if 'H200T6L6W' in str(data[0]):
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.7, 0.65))
+        layer_heights[shelves[-1]] = []
       elif 'ShelfLayer' in str(data[0]):
         shelf_layers.append(data)
     for data in shelf_layers:
@@ -161,9 +191,12 @@ def csv_to_shelves(csv_shelves):
           layer_heights[shelf].append(float(data[3]))
     for shelf in layer_heights:
       layer_heights[shelf].sort()
-      for i in range(len(layer_heights[shelf])-1):
-        shelf.layers.append(Layer(layer_heights[shelf][i], layer_heights[shelf][i+1]))
-      shelf.layers.append(Layer(layer_heights[shelf][i+1], float('inf')))
+      if len(layer_heights[shelf]) > 1:
+        for i in range(len(layer_heights[shelf])-1):
+          shelf.layers.append(Layer(i+1, layer_heights[shelf][i], layer_heights[shelf][i+1]))
+        shelf.layers.append(Layer(i+2, layer_heights[shelf][i+1], float('inf')))
+      else:
+        shelf.layers.append(Layer(1, layer_heights[shelf][0], float('inf')))
   return shelves
 
 def write_output(products):
@@ -172,29 +205,18 @@ def write_output(products):
     for item in product.items:
       if not item.name in data:
         data[item.name] = {}
-        data[item.name]['layers'] = product.layers
-        data[item.name]['facings'] = product.facings
+        data[item.name]['locations'] = product.locations
   with open('output/ERP.json', 'w') as outfile:
     json.dump(data, outfile)
 
 if __name__ == "__main__":
   products = csv_to_products('data/allitems.csv')
-  #print(products)
   shelves = csv_to_shelves('data/allshelves.csv')
-  #print(shelves)
-  fill(products, shelves)
-
-  products_valid = []
+  products = fill(products, shelves)
   for product in products:
-    if product.shelves:
-      products_valid.append(product)
-      products = products_valid
-
-  for product in products:
-    product.calc_facings()
     product.calc_layers()
-  #   for shelf in shelves:
-  #     product.calc_layer(shelves[0])
+    product.calc_facings()
+  for shelf in shelves:
+    shelf.calc_orders()
 
-  #print(products)
   write_output(products)
