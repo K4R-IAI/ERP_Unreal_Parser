@@ -25,18 +25,22 @@ class Product:
     for item in self.items:
       if item.shelf: #TODO: delete
         for i, layer in enumerate(item.shelf.layers):
+          
+
           if layer.z_min <= item.height and item.height <= layer.z_max:
             item.layer = item.shelf.layers[i]
             if not item.shelf.id in self.locations:
               self.locations[item.shelf.id] = {}
             if not 'Layer ' + str(item.layer.num) in self.locations[item.shelf.id]:
               self.locations[item.shelf.id]['Layer ' + str(item.layer.num)] = {}
+        if item.name == 'ProductWithAN377954' and item.position.x == 7.217367:
+          print(item.shelf.layers)
+
 
   def calc_facings(self):
     for item in self.items:
       if item.shelf: #TODO: delete
         side_distance = calc_side_distance(item.position, item.shelf.side_line_a_b)
-        print(item, item.layer)
         if not self in item.layer.orders:
           item.layer.orders[self] = [side_distance]
           self.locations[item.shelf.id]['Layer ' + str(item.layer.num)] = {}
