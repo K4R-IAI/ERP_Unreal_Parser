@@ -1,8012 +1,1137 @@
 {
-  "ProductWithAN544375": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 2
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 2
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 2
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 9
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 2
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 2
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN251188": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 10
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 14
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 17
-          }, 
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 24
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 20
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 10
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 10
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 10
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN404491": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 6
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 20
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 8
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN384160": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 11
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 1
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN522602": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 2, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 11
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 19
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 8, 
-            "Order": 25
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 11
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 13
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 3
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 10
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 10
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 7
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN423576": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 21
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 11
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 7
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN027995": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 7
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }
-        ], 
-        "id": 6
-      }
-    ]
-  }, 
   "ProductWithAN293875": {
-    "Shelves": [
+    "locations": [
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 13
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 10
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 13
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }
-        ], 
-        "id": 9
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 6
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 7, 
-            "Order": 2
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 3
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN250919": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 7
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 20
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 3, 
-            "id": 4, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 14
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 2
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN535475": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 17
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 2
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN253217": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 13
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 17
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 16
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 17
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 26
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 13
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 1
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 1
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 13
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN418988": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
+        "Shelf 1": {
+          "Layer 4": {
             "Facing": 4, 
-            "id": 10, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 20
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 27
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 21
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 8, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 3
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 9
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 14
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN520209": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 10
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 21
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 8, 
-            "Order": 24
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 13
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 11
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
             "Order": 2
           }
-        ], 
-        "id": 5
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 9
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 9
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 6
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN250917": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 2
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 16
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 3
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 2
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }
-        ], 
-        "id": 9
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 2
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 2
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN553726": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN453136": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 4
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 25
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 4
-      }
-    ]
-  }, 
-  "ProductWithAN256799": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 14
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 18
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 19
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 16
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 14
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 2
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 14
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN377954": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 14
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 2
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 4
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN278867": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 2
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 3
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 7
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 13
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 2
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 2
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN250949": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 8
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 18
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 16
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN250983": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 16
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 18
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN501156": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 14
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 14
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN553733": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 13
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN523129": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 2
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN534910": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 11
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN260725": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 13
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 12
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }
-        ], 
-        "id": 9
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 5
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN046088": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 22
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 15
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 23
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 11
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 12
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 12
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 2, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 3, 
-            "id": 4, 
-            "Order": 16
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 2
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 7, 
-            "Order": 13
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 12
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN535680": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 13
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 20
-          }, 
-          {
+        "Shelf 3": {
+          "Layer 4": {
             "Facing": 4, 
-            "id": 10, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 15
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 24
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 24
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 19
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 17
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
             "Order": 2
           }
-        ], 
-        "id": 6
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 3, 
-            "id": 4, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 12
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 7
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 12
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 12
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 10
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 10
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN521873": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 17
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 11
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 6
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN346864": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 14
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 24
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 19
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 17
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 8
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 3
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 8
-          }
-        ], 
-        "id": 9
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 7
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 2
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 7
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN251211": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 11
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 19
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 12
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 13
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 22
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 11
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 11
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 11
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN522985": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 12
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 17
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 8, 
-            "Order": 27
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 25
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 16
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 2, 
-            "id": 7, 
-            "Order": 11
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 11
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 11
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 8
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 11
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN523009": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 2
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 5
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN295813": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 12
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 21
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 11
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN422068": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 9
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 19
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 7
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 7
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 7
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN015652": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 6, 
-            "id": 6, 
-            "Order": 10
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }
-        ], 
-        "id": 6
-      }
-    ]
-  }, 
-  "ProductWithAN512036": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 8
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 25
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 8, 
-            "Order": 26
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 17
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 7
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 7
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 7
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 7
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 7
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN036946": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 1
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 8, 
-            "Order": 17
-          }, 
-          {
+        "Shelf 5": {
+          "Layer 6": {
             "Facing": 4, 
-            "id": 4, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 8
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 10, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
             "Order": 2
           }
-        ], 
-        "id": 4
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
+        "Shelf 5": {
+          "Layer 4": {
+            "Facing": 4, 
+            "Order": 2
           }
-        ], 
-        "id": 5
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
+        "Shelf 5": {
+          "Layer 3": {
+            "Facing": 4, 
+            "Order": 3
+          }
+        }
+      }, 
+      {
+        "Shelf 7": {
+          "Layer 6": {
+            "Facing": 4, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 7": {
+          "Layer 4": {
+            "Facing": 4, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 5": {
+            "Facing": 4, 
+            "Order": 3
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 4": {
+            "Facing": 4, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 9": {
+          "Layer 7": {
+            "Facing": 4, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 9": {
+          "Layer 5": {
+            "Facing": 4, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 10": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 11": {
+          "Layer 5": {
+            "Facing": 4, 
+            "Order": 3
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 7": {
+            "Facing": 4, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 4": {
+            "Facing": 4, 
             "Order": 4
           }
-        ], 
-        "id": 6
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 13
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 10
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 14
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 11
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 10
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN235542": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 19
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 26
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 23
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
+        "Shelf 12": {
+          "Layer 4": {
+            "Facing": 4, 
             "Order": 5
           }
-        ], 
-        "id": 5
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 10
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 10
-          }
-        ], 
-        "id": 15
-      }
-    ]
-  }, 
-  "ProductWithAN260667": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
+        "Shelf 14": {
+          "Layer 6": {
+            "Facing": 4, 
             "Order": 3
           }
-        ], 
-        "id": 1
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 14
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
+        "Shelf 14": {
+          "Layer 5": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 5
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
+        "Shelf 15": {
+          "Layer 5": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 9
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 3
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN036942": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 17
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 3
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 27
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
+        "Shelf 15": {
+          "Layer 3": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 5
-      }
-    ]
-  }, 
-  "ProductWithAN399599": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 12
-          }
-        ], 
-        "id": 2
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
+        "Shelf 6": {
+          "Layer 4": {
+            "Facing": 4, 
+            "Order": 1
           }
-        ], 
-        "id": 4
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
+        "Shelf 4": {
+          "Layer 4": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 6": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 4": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 3": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 6
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
+        "Shelf 17": {
+          "Layer 3": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 12
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
+        "Shelf 17": {
+          "Layer 1": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 14
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN553736": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 15
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN553735": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN476935": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 6
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 21
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 1
-          }
-        ], 
-        "id": 4
-      }
-    ]
-  }, 
-  "ProductWithAN196068": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 13
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
+        "Shelf 18": {
+          "Layer 5": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 7
-      }
-    ]
-  }, 
-  "ProductWithAN544788": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }
-        ], 
-        "id": 1
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 13
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 17
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 9
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 26
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 17
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 12
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 8
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 13
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 4
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 9
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN554301": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
+        "Shelf 18": {
+          "Layer 3": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 2
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN457425": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 5
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 26
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 3
-          }
-        ], 
-        "id": 4
-      }
-    ]
-  }, 
-  "ProductWithAN308627": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 10
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 24
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
+        "Shelf 20": {
+          "Layer 6": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 3
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 19
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 1
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 5
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 6
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN378981": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 5
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 12
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 13
-      }
-    ]
-  }, 
-  "ProductWithAN252312": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 12
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 14
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 15
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 3, 
-            "id": 8, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 24
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 12
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 12
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 7
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 7
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 12
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 7
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN390842": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 9
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 3
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 10
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }
-        ], 
-        "id": 13
-      }
-    ]
-  }, 
-  "ProductWithAN262289": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 15
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 5
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 11
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 14
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 3
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 5
-          }
-        ], 
-        "id": 9
-      }
-    ]
-  }, 
-  "ProductWithAN415961": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
+        "Shelf 20": {
+          "Layer 4": {
+            "Facing": 4, 
             "Order": 2
           }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 1
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 4
-      }
-    ]
-  }, 
-  "ProductWithAN553715": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN004728": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 11
-          }
-        ], 
-        "id": 12
-      }
-    ]
-  }, 
-  "ProductWithAN476951": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 27
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 17
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 19
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 8
-          }
-        ], 
-        "id": 4
+        }
       }
     ]
   }, 
   "ProductWithAN010055": {
-    "Shelves": [
+    "locations": [
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
+        "Shelf 1": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 3": {
+          "Layer 6": {
+            "Facing": 2, 
             "Order": 2
           }
-        ], 
-        "id": 10
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 1
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
+        "Shelf 10": {
+          "Layer 4": {
+            "Facing": 2, 
             "Order": 2
           }
-        ], 
-        "id": 12
-      }
-    ]
-  }, 
-  "ProductWithAN544382": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }
-        ], 
-        "id": 1
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 1
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 10
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 1
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 1
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN378940": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
+        "Shelf 11": {
+          "Layer 7": {
             "Facing": 2, 
-            "id": 8, 
-            "Order": 24
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 12
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 17
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 21
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 15
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 1
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 4
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 7
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 8
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 11
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 8
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN523823": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 9
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
             "Order": 2
           }
-        ], 
-        "id": 2
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
+        "Shelf 6": {
+          "Layer 6": {
             "Facing": 2, 
-            "id": 12, 
-            "Order": 18
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 9
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 10
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 9
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 9
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN402589": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 13
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 4
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }
-        ], 
-        "id": 14
-      }
-    ]
-  }, 
-  "ProductWithAN260696": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 5
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 8
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
             "Order": 1
           }
-        ], 
-        "id": 3
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 12
+        "Shelf 4": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 1
           }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 7
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 3
-          }
-        ], 
-        "id": 9
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 5
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 4
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 4
-          }
-        ], 
-        "id": 17
+        }
       }
     ]
   }, 
-  "ProductWithAN515136": {
-    "Shelves": [
+  "ProductWithAN554301": {
+    "locations": [
       {
-        "Layers": [
-          {
+        "Shelf 1": {
+          "Layer 5": {
             "Facing": 2, 
-            "id": 2, 
             "Order": 3
-          }, 
-          {
+          }
+        }
+      }, 
+      {
+        "Shelf 3": {
+          "Layer 5": {
             "Facing": 2, 
-            "id": 3, 
-            "Order": 9
+            "Order": 2
           }
-        ], 
-        "id": 1
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 23
+        "Shelf 10": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 2
           }
-        ], 
-        "id": 2
+        }
       }, 
       {
-        "Layers": [
-          {
+        "Shelf 11": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 6": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 4": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }
+    ]
+  }, 
+  "ProductWithAN004728": {
+    "locations": [
+      {
+        "Shelf 1": {
+          "Layer 5": {
             "Facing": 3, 
-            "id": 8, 
-            "Order": 23
-          }, 
-          {
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 3": {
+          "Layer 5": {
             "Facing": 3, 
-            "id": 10, 
-            "Order": 19
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 14
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 19
-          }, 
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 9
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
             "Order": 1
           }
-        ], 
-        "id": 5
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 8
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 8
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 3
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
+        "Shelf 10": {
+          "Layer 3": {
             "Facing": 3, 
-            "id": 1, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 8
-          }, 
-          {
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 11": {
+          "Layer 6": {
             "Facing": 3, 
-            "id": 5, 
-            "Order": 4
+            "Order": 1
           }
-        ], 
-        "id": 11
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 8
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 3
-          }
-        ], 
-        "id": 13
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 8
-          }
-        ], 
-        "id": 14
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 3, 
-            "Order": 8
-          }, 
-          {
+        "Shelf 6": {
+          "Layer 5": {
             "Facing": 3, 
-            "id": 4, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 5, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 7, 
-            "Order": 5
+            "Order": 2
           }
-        ], 
-        "id": 15
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 2, 
-            "Order": 4
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 4
+        "Shelf 4": {
+          "Layer 5": {
+            "Facing": 3, 
+            "Order": 2
           }
-        ], 
-        "id": 17
+        }
       }
     ]
   }, 
-  "ProductWithAN036988": {
-    "Shelves": [
+  "ProductWithAN404491": {
+    "locations": [
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 3
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 15
-          }, 
-          {
+        "Shelf 1": {
+          "Layer 4": {
             "Facing": 2, 
-            "id": 4, 
-            "Order": 19
-          }, 
-          {
-            "Facing": 3, 
-            "id": 6, 
-            "Order": 11
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 12, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 16
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 20
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 25
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 10
-          }
-        ], 
-        "id": 8
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 11
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 11
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 15
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 7, 
-            "Order": 12
-          }
-        ], 
-        "id": 15
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 3
-          }
-        ], 
-        "id": 16
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 11
-          }
-        ], 
-        "id": 17
-      }
-    ]
-  }, 
-  "ProductWithAN331372": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 1, 
-            "Order": 10
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 15
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 5
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }
-        ], 
-        "id": 9
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 8
-          }
-        ], 
-        "id": 10
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 8
-          }
-        ], 
-        "id": 11
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 11
-          }
-        ], 
-        "id": 12
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
             "Order": 1
           }
-        ], 
-        "id": 13
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
+        "Shelf 3": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 5": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 5": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 5": {
+          "Layer 3": {
+            "Facing": 2, 
             "Order": 2
           }
-        ], 
-        "id": 16
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 1, 
-            "Order": 7
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 7
+        "Shelf 7": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 1
           }
-        ], 
-        "id": 17
+        }
+      }, 
+      {
+        "Shelf 7": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 7": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 9": {
+          "Layer 7": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 9": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 9": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 10": {
+          "Layer 2": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 11": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 7": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 3
+          }
+        }
+      }, 
+      {
+        "Shelf 15": {
+          "Layer 5": {
+            "Facing": 1, 
+            "Order": 3
+          }
+        }, 
+        "Shelf 14": {
+          "Layer 6": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 15": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 4
+          }
+        }, 
+        "Shelf 14": {
+          "Layer 5": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 14": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 15": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 15": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 15": {
+          "Layer 2": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 6": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 4": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 3
+          }
+        }
+      }, 
+      {
+        "Shelf 17": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 17": {
+          "Layer 1": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 18": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 18": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 18": {
+          "Layer 2": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 20": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 20": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 20": {
+          "Layer 3": {
+            "Facing": 2, 
+            "Order": 2
+          }
+        }
       }
     ]
   }, 
-  "ProductWithAN250899": {
-    "Shelves": [
+  "ProductWithAN015652": {
+    "locations": [
       {
-        "Layers": [
-          {
+        "Shelf 1": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 3": {
+          "Layer 6": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 10": {
+          "Layer 4": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 11": {
+          "Layer 7": {
+            "Facing": 2, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 6": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 3
+          }
+        }
+      }, 
+      {
+        "Shelf 4": {
+          "Layer 5": {
+            "Facing": 2, 
+            "Order": 3
+          }
+        }
+      }
+    ]
+  }, 
+  "ProductWithAN295813": {
+    "locations": [
+      {
+        "Shelf 1": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 3": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 5": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 7": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 11": {
+          "Layer 4": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 3": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 15": {
+          "Layer 2": {
             "Facing": 1, 
-            "id": 4, 
+            "Order": 3
+          }
+        }, 
+        "Shelf 14": {
+          "Layer 3": {
+            "Facing": 3, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 6": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 4": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 18": {
+          "Layer 1": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 20": {
+          "Layer 2": {
+            "Facing": 4, 
+            "Order": 1
+          }
+        }
+      }
+    ]
+  }, 
+  "ProductWithAN046088": {
+    "locations": [
+      {
+        "Shelf 1": {
+          "Layer 3": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 3": {
+          "Layer 3": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 5": {
+          "Layer 5": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 5": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 5": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 4
+          }
+        }
+      }, 
+      {
+        "Shelf 7": {
+          "Layer 5": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 7": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 5": {
+            "Facing": 5, 
+            "Order": 2
+          }
+        }
+      }, 
+      {
+        "Shelf 8": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 9": {
+          "Layer 6": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 9": {
+          "Layer 4": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 11": {
+          "Layer 5": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 6": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 4": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 12": {
+          "Layer 4": {
+            "Facing": 1, 
             "Order": 6
           }
-        ], 
-        "id": 1
+        }
       }, 
       {
-        "Layers": [
-          {
+        "Shelf 15": {
+          "Layer 4": {
             "Facing": 1, 
-            "id": 8, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
             "Order": 2
           }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 12, 
-            "Order": 5
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 22
+        }, 
+        "Shelf 14": {
+          "Layer 6": {
+            "Facing": 4, 
+            "Order": 2
           }
-        ], 
-        "id": 3
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 2, 
-            "id": 8, 
-            "Order": 25
-          }, 
-          {
+        "Shelf 15": {
+          "Layer 3": {
             "Facing": 1, 
-            "id": 10, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 3, 
-            "id": 4, 
-            "Order": 19
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 13
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 12
-          }, 
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 6
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
             "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
+          }
+        }
+      }, 
+      {
+        "Shelf 15": {
+          "Layer 4": {
+            "Facing": 5, 
             "Order": 1
           }
-        ], 
-        "id": 13
+        }
       }, 
       {
-        "Layers": [
-          {
+        "Shelf 15": {
+          "Layer 2": {
             "Facing": 1, 
-            "id": 2, 
-            "Order": 3
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 6
-          }
-        ], 
-        "id": 16
-      }
-    ]
-  }, 
-  "ProductWithAN250898": {
-    "Shelves": [
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 5
-          }
-        ], 
-        "id": 1
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 22
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 24
-          }
-        ], 
-        "id": 2
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 10, 
-            "Order": 18
-          }, 
-          {
-            "Facing": 1, 
-            "id": 11, 
-            "Order": 1
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 9
-          }, 
-          {
-            "Facing": 2, 
-            "id": 6, 
-            "Order": 23
-          }
-        ], 
-        "id": 3
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 8, 
-            "Order": 23
-          }, 
-          {
-            "Facing": 2, 
-            "id": 10, 
-            "Order": 24
-          }, 
-          {
-            "Facing": 2, 
-            "id": 4, 
-            "Order": 13
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
-            "Order": 11
-          }
-        ], 
-        "id": 4
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 11
-          }, 
-          {
-            "Facing": 1, 
-            "id": 4, 
-            "Order": 10
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 5
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
-          }
-        ], 
-        "id": 6
-      }, 
-      {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 3, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 6, 
             "Order": 1
           }
-        ], 
-        "id": 13
+        }
       }, 
       {
-        "Layers": [
-          {
-            "Facing": 1, 
-            "id": 2, 
-            "Order": 2
-          }, 
-          {
-            "Facing": 1, 
-            "id": 5, 
-            "Order": 5
+        "Shelf 6": {
+          "Layer 3": {
+            "Facing": 5, 
+            "Order": 1
           }
-        ], 
-        "id": 16
+        }
+      }, 
+      {
+        "Shelf 4": {
+          "Layer 3": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 5": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 4
+          }
+        }
+      }, 
+      {
+        "Shelf 2": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 17": {
+          "Layer 2": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 18": {
+          "Layer 4": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 18": {
+          "Layer 2": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 20": {
+          "Layer 5": {
+            "Facing": 5, 
+            "Order": 1
+          }
+        }
+      }, 
+      {
+        "Shelf 20": {
+          "Layer 3": {
+            "Facing": 1, 
+            "Order": 1
+          }
+        }
       }
     ]
   }

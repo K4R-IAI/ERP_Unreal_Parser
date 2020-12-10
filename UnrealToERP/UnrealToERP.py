@@ -46,7 +46,6 @@ class Product:
             if side_distance - side_distance_in_one_shelf_layer < 0.02 and side_distance - side_distance_in_one_shelf_layer > -0.02:
               same_facing = True
           if not same_facing:
-            item.layer.orders[self].append(side_distance)
             self.locations[item.shelf.id]['Layer ' + str(item.layer.num)]['Facing'] += 1
 
   def __repr__(self):
@@ -127,11 +126,14 @@ def fill(products, shelves):
     for shelf in shelves:
       for item in product.items:
         if shelf.polygon.contains(item.position):
-          item.shelf = shelf
-          if not product in shelf.products:
-            shelf.products.append(product)
-          if not shelf in product.shelves:
-            product.shelves.append(shelf)
+          if not item.shelf:
+            item.shelf = shelf
+            if not product in shelf.products:
+              shelf.products.append(product)
+            if not shelf in product.shelves:
+              product.shelves.append(shelf)
+          else:
+            print('Item ' + str(item) + ' was located at shelf ' + item.shelf.id + ', but is also in shelf ' + shelf.id)
   check_unlocated_products(products, shelves)
 
 def check_unlocated_products(products, shelves, fix_unlocated=False):
@@ -155,6 +157,7 @@ def check_unlocated_products(products, shelves, fix_unlocated=False):
 def csv_to_products(csv_items):
   with open(csv_items, mode='r') as csv_file:
     csv_reader = csv.reader(csv_file, delimiter='|')
+    next(csv_reader)
     first_row = next(csv_reader)
     products = []
     products.append(Product(str(first_row[0])))
@@ -177,23 +180,32 @@ def csv_to_shelves(csv_shelves):
     for data in csv_reader:
       if 'ShelfSystem' in str(data[0]):
         shelf_id += 1
-        if 'H160T4L10W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.6, 1.0))
-        if 'H160T6L10G' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 1.2, 1.0))
-        if 'H200T7L10W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.85, 1.0))
-        if 'H180T5L10W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.6, 1.0))
-        if 'H200T5L6W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.6, 0.7))
-        if 'H200T6L10W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.7, 1.0))
-        if 'H200T6L12W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.7, 1.25))
-        if 'H200T6L6W' in str(data[0]):
-          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), 0.7, 0.65))
-        layer_heights[shelves[-1]] = []
+        shelf_name = str(data[0])
+        # height = float(shelf_name[shelf_name.find('H')+1:shelf_name.find('T')])/10
+        depth = float(shelf_name[shelf_name.find('T')+1:shelf_name.find('L')])/10 + 0.01
+        if 'W' in shelf_name:
+          length = float(shelf_name[shelf_name.find('L')+1:shelf_name.find('W')])/10 + 0.01
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), depth, length))
+          layer_heights[shelves[-1]] = []
+        elif 'G' in shelf_name:
+          length = float(shelf_name[shelf_name.find('L')+1:shelf_name.find('G')])/10 + 0.01
+          quaternion = (float(data[4]), float(data[5]), float(data[6]), float(data[7]))
+          euler = tf.transformations.euler_from_quaternion(quaternion)
+          yaw = euler[0]
+          center = transform2d(float(data[1]), float(data[2]), 0, depth/2, yaw)
+          data[1] = center[0]
+          data[2] = center[1]
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), depth, length))
+          layer_heights[shelves[-1]] = []
+          shelf_id += 1
+          center = transform2d(float(data[1]), float(data[2]), 0, -depth, yaw)
+          data[1] = center[0]
+          data[2] = center[1]
+          shelves.append(Shelf(data, str('Shelf ') + str(shelf_id), depth, length))
+          layer_heights[shelves[-1]] = []
+        else:
+          print('Invalid shelf: ' + shelf_name)
+          return        
       elif 'Bottom' in str(data[0]):
         shelf_bottoms.append(data)
       elif 'ShelfLayer' in str(data[0]):
@@ -204,7 +216,7 @@ def csv_to_shelves(csv_shelves):
           layer_heights[shelf].append(float(data[3]))
     for shelf in shelves:
       if not layer_heights[shelf]:
-        print('Shelf ' + shelf.type + ' does not have bottom layer, its bottom height will be set to 0.0')
+        print(shelf.id + ', type ' + shelf.type + ' does not have bottom layer, its bottom height will be set to 0.0')
         layer_heights[shelf].append(0.0)
     for data in shelf_layers:
       for shelf in shelves:
@@ -214,27 +226,28 @@ def csv_to_shelves(csv_shelves):
       layer_heights[shelf].sort()
       if len(layer_heights[shelf]) > 1:
         for i in range(len(layer_heights[shelf])-1):
-          shelf.layers.append(Layer(i+1, layer_heights[shelf][i], layer_heights[shelf][i+1]))
-        shelf.layers.append(Layer(i+2, layer_heights[shelf][i+1], float('inf')))
+          shelf.layers.append(Layer(len(layer_heights[shelf])-i, layer_heights[shelf][i], layer_heights[shelf][i+1]))
+        shelf.layers.append(Layer(1, layer_heights[shelf][i+1], float('inf')))
       else:
         shelf.layers.append(Layer(1, layer_heights[shelf][0], float('inf')))
     for shelf in shelves:
-      print(shelf.id + ', type ' + shelf.type + ', located at ' + str(shelf.center) + ', width ' + str(shelf.width) + ', depth ' + str(shelf.depth) + ' is created')
+      print(shelf.id + ', type ' + shelf.type + ', located at ' + str(shelf.center) + ', width ' + str(shelf.width) + ', depth ' + str(shelf.depth) + ' and has ' + str(len(shelf.layers)) + ' layers is created')
   return shelves
 
 def write_output(products):
   data = {}
   for product in products:
-    for item in product.items:
-      if not item.name in data:
-        data[item.name] = {}
-        data[item.name]['locations'] = product.locations
+    if not product.name in data:
+      data[product.name] = {}
+      data[product.name]['locations'] = []
+    data[product.name]['locations'].append(product.locations)
+
   with open('output/ERP.json', 'w') as outfile:
     json.dump(data, outfile, indent=2)
 
 if __name__ == "__main__":
-  products = csv_to_products('data/allitems.csv')
-  shelves = csv_to_shelves('data/allshelves.csv')
+  products = csv_to_products('data/products_ERP.csv')
+  shelves = csv_to_shelves('data/shelves_ERP.csv')
   fill(products, shelves)
   for product in products:
     product.calc_layers()
